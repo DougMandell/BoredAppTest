@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.android.boredapptest.MainActivity">
+
+    <Button
+        android:id="@+id/MoviesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/CourtHouseButton"
+        app:layout_constraintRight_toLeftOf="@+id/LiquorStoreButton"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/CourtHouseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Court House"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/CasinoButton"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/ResturantsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openRestaurants"
+        android:text="Resturants"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/CemetaryButton"
+        app:layout_constraintRight_toLeftOf="@+id/MoviesButton"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/LiquorStoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liquor Store"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/CasinoButton"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/CemetaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cemetary "
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/CourtHouseButton"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/CasinoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casino"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/BoredButton"
+        android:layout_width="243dp"
+        android:layout_height="140dp"
+        android:text="Bored"
+        tools:layout_editor_absoluteY="97dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
