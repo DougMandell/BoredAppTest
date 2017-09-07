@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     /** Called when the user taps the Send button */
     public void openRestaurants(View view) {
-        Log.d("resturants", "Restairants was clicked");
+        Log.d("restaurants", "restaurants was clicked");
         Intent intent = new Intent(this, Main2Activity.class);
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();

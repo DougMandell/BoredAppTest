@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/play-services/11.2.0/11.2.0.iml" filepath="$PROJECT_DIR$/com.google.android.gms/play-services/11.2.0/11.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/play-services/11.2.0/11.2.0.iml" filepath="$PROJECT_DIR$/com.google.android.gms/play-services/11.2.0/11.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BoredAppTest.iml" filepath="$PROJECT_DIR$/BoredAppTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/BoredAppTest.iml" filepath="$PROJECT_DIR$/BoredAppTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/com.google.android.gms.iml" filepath="$PROJECT_DIR$/com.google.android.gms/com.google.android.gms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/com.google.android.gms.iml" filepath="$PROJECT_DIR$/com.google.android.gms/com.google.android.gms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/play-services/play-services.iml" filepath="$PROJECT_DIR$/com.google.android.gms/play-services/play-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.google.android.gms/play-services/play-services.iml" filepath="$PROJECT_DIR$/com.google.android.gms/play-services/play-services.iml" />
     </modules>
   </component>

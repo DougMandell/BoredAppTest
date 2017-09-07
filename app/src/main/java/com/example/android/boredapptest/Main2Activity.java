@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-     //
+     //https://www.youtube.com/watch?v=6DxEALtxoJw
 
 
     }
