@@ -7,6 +7,6 @@
     tools:context="com.example.android.boredapptest.Main2Activity">
 
 
-    <!---->Google Places Tutorial: https://code.tutsplus.com/articles/google-play-services-using-the-places-api--cms-23715<!---->
+    <!----> /Google Places Tutorial: https://code.tutsplus.com/articles/google-play-services-using-the-places-api--cms-23715<!---->
 
 </android.support.constraint.ConstraintLayout>
