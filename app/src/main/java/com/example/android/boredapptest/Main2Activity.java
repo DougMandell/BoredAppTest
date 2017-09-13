@@ -12,6 +12,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //ssssss
         setContentView(R.layout.activity_main2);
 
      //https://www.youtube.com/watch?v=6DxEALtxoJw
