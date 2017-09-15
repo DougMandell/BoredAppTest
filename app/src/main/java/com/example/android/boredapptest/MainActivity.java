@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
@@ -15,6 +16,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void openMovies(){
+        Button moviesButton;
+        moviesButton = (Button) findViewById(R.id.MoviesButton);
+
+        moviesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, Movies.class);
+                startActivity(myIntent);
+
+            }
+        });
     }
 
     /** Called when the user taps the Send button */
