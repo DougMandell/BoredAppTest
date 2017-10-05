@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openMovies(){
+    public void openMovies(View view){
         Button moviesButton;
         moviesButton = (Button) findViewById(R.id.MoviesButton);
 
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 
     /** Called when the user taps the Send button */
     public void openRestaurants(View view) {
