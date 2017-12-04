@@ -70,7 +70,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:background="@drawable/round_button"
-                android:text="Casino"
+                android:text="swimming"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintRight_toRightOf="parent" />
 
@@ -137,7 +137,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:background="@drawable/round_button"
-                android:text="Liquor Store"
+                android:text="Art "
                 app:layout_constraintBottom_toTopOf="@+id/CasinoButton"
                 app:layout_constraintRight_toRightOf="parent" />
 

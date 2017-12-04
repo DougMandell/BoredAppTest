@@ -23,11 +23,22 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main2);
-
+        Button button;
         final MediaPlayer song;
         CheckBox mexicanBox;
 
         mexicanBox = (CheckBox) findViewById(R.id.mexicanBox);
+        button=(Button)findViewById(R.id.search_button);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(),Restaurants.class);
+                startActivity(i);
+            }
+        });
+
         song= MediaPlayer.create(this, R.raw.pop);
         song.setLooping(false);
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(getBaseContext());
